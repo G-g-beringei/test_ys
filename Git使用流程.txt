@@ -1,0 +1,22 @@
+1.在工程目录进入git shell
+
+2.git checkout develop 进入develop分支
+
+3.git branch feature-xxx 新建feature-xxx分支
+   git checkout -b feature-xxx 新建并进入feature-xxx分支
+
+4.对工程文件进行操作调试
+
+5.git add xxx 将xxx文件添加至缓存区
+
+6.git commit -m "提交信息" 将文件提交到本地仓库
+
+7.git checkout develop 退回develop分支
+
+8.git merge feature-xxx 将feature-xxx分支合并至develop分支
+
+9.git branch -d feather-xxx 删除feather-xxx分支
+
+10.git push origin develop 将文件推送至云端
+
+开发流程结束
